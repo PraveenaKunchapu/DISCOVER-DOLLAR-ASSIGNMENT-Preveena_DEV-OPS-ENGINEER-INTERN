@@ -1,6 +1,6 @@
 # Discover Dollar Assignment --- Image Build & Push (Frontend + Backend)
 
-**Frontend Repository:** https://github.com/PraveenaKunchapu/DISCOVER-DOLLAR-Praveena_ASSIGNMENT_frotnend\
+**Frontend Repository:** https://github.com/PraveenaKunchapu/DISCOVER-DOLLAR-Praveena_ASSIGNMENT_frotnend
 **Backend Repository:** https://github.com/PraveenaKunchapu/DISCOVER-DOLLAR-Praveena_ASSIGNMENT_backend
 
 ------------------------------------------------------------------------
