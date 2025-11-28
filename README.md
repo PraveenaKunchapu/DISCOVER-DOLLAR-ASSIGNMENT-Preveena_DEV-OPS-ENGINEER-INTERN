@@ -2,7 +2,7 @@
 
 **Frontend Repository:** https://github.com/PraveenaKunchapu/DISCOVER-DOLLAR-Praveena_ASSIGNMENT_frotnend
 **Backend Repository:** https://github.com/PraveenaKunchapu/DISCOVER-DOLLAR-Praveena_ASSIGNMENT_backend
-
+(each repo has it's own build and push  workflow)
 ------------------------------------------------------------------------
 
 ## 🚀 Overview
