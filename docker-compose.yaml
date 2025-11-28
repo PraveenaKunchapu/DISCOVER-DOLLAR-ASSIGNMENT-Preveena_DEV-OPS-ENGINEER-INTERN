@@ -1,0 +1,38 @@
+version: "3.9"
+
+services:
+  frontend:
+    image: kunchapupraveena/discover_dollar-assignment-fe:latest
+    container_name: discover_dollar_frontend
+    ports:
+      - "3000:80"
+    depends_on:
+      - backend
+    restart: always
+    environment:
+      # If your frontend requires API URL:
+      REACT_APP_BACKEND_URL: "http://localhost:5000"
+
+  backend:
+    image: kunchapupraveena/discover_dollar-assignment-be:latest
+    container_name: discover_dollar_backend
+    ports:
+      - "5000:5000"
+    depends_on:
+      - mongo
+    restart: always
+    environment:
+      MONGO_URL: "mongodb://mongo:27017/discover_dollar"
+      PORT: 5000
+
+  mongo:
+    image: mongo:7
+    container_name: discover_dollar_mongo
+    ports:
+      - "27017:27017"
+    volumes:
+      - mongo_data:/data/db
+    restart: always
+
+volumes:
+  mongo_data:
